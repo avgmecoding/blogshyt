@@ -5,49 +5,46 @@ import { motion } from "framer-motion";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-gray-950 text-white py-6 flex justify-center">
+    <footer className=" bg-black-950 py-6 flex justify-center">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="flex gap-8 text-2xl"
+        className="flex items-center gap-4 bg-black-950 border border-dashed border-gray-800 rounded-2xl px-6 py-4"
       >
         <a
           href="mailto:rajshripatil19022006@gmail.com"
           aria-label="Email"
-          className="hover:text-pink-400 transition transform hover:scale-150"
+          className="flex items-center justify-center w-12 h-12 rounded-xl border border-dashed border-gray-700 text-gray-300 hover:text-orange-400 hover:border-gray-500 transition transform hover:scale-110"
         >
-          <FaEnvelope />
+          <FaEnvelope className="text-xl" />
         </a>
-
         <a
           href="https://github.com/avgmecoding"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub"
-          className="hover:text-pink-400 transition transform hover:scale-150"
+          className="flex items-center justify-center w-12 h-12 rounded-xl border border-dashed border-gray-700 text-gray-300 hover:text-orange-400 hover:border-gray-500 transition transform hover:scale-110"
         >
-          <FaGithub />
+          <FaGithub className="text-xl" />
         </a>
-
         <a
           href="https://linkedin.com/in/rajshri-patil-270804292"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
-          className="hover:text-pink-400 transition transform hover:scale-150"
+          className="flex items-center justify-center w-12 h-12 rounded-xl border border-dashed border-gray-700 text-gray-300 hover:text-orange-400 hover:border-gray-500 transition transform hover:scale-110"
         >
-          <FaLinkedin />
+          <FaLinkedin className="text-xl" />
         </a>
-
         <a
           href="https://x.com/avgmecoding"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="X"
-          className="hover:text-pink-400 transition transform hover:scale-150"
+          className="flex items-center justify-center w-12 h-12 rounded-xl border border-dashed border-gray-700 text-gray-300 hover:text-orange-400 hover:border-gray-500 transition transform hover:scale-110"
         >
-          <FaXTwitter />
+          <FaXTwitter className="text-xl" />
         </a>
       </motion.div>
     </footer>
