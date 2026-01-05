@@ -21,7 +21,7 @@ export default function Footer() {
         <SocialLink href="https://x.com/avgmecoding" icon={<FaXTwitter />} label="X" />
       </motion.div>
 
-      <p className="font-mono mb-3 text-[13px] text-zinc-600 font-bold tracking-[0.3em]">
+      <p className="font-mono mb-3 text-[13px] text-zinc-600 font-bold tracking-[0.1em]">
         Made with ❤️ by Rajshri
       </p>
     </footer>
